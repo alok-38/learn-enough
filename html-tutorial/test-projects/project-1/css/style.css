@@ -8,15 +8,12 @@ header {
     background-color: #333;
     text-align: center;
     padding: 10px;
+    color: floralwhite;
 }
 
 main {
     width: 75%;
     margin: auto;
-}
-
-a, header {
-    color: floralwhite;
 }
 
 a {
