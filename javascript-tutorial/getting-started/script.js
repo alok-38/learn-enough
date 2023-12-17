@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener("DOMContentLoaded", function() {
     // Function to reverse a string
     function string_reversal(my_string) {
@@ -10,15 +8,21 @@ document.addEventListener("DOMContentLoaded", function() {
         return reversed_string;
     }
 
-    // Get the <p> element by its tag name
-    let paragraphElement = document.querySelector('p');
+    // Prompt the user for input
+    let userString = prompt("Enter a string:");
 
-    // Get the text content of the <p> element
-    let originalText = paragraphElement.textContent;
+    // Check if the user entered a string
+    if (userString !== null) {
+        // Get the <p> element by its tag name
+        let paragraphElement = document.querySelector('p');
 
-    // Reverse the text using the string_reversal function
-    let reversedText = string_reversal(originalText);
+        // Reverse the user's input using the string_reversal function
+        let reversedText = string_reversal(userString);
 
-    // Set the reversed text as the new content of the <p> element
-    paragraphElement.textContent = reversedText;
+        // Set the reversed text as the new content of the <p> element
+        paragraphElement.textContent = reversedText;
+    } else {
+        // Handle the case where the user clicked "Cancel" or entered an empty string
+        console.log("User canceled or entered an empty string.");
+    }
 });
