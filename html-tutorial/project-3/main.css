@@ -34,6 +34,7 @@ img {
 blockquote {
     font-style: italic;
     font-size: 20px;
+    width: 100%;
 }
 
 a {
@@ -68,4 +69,10 @@ span {
 /* header */
 header {
     text-align: center;
+}
+
+/* main */
+main {
+    width: 50%;
+    margin: auto;
 }
