@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    letter-spacing: .5px;
+    margin: 15px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    margin-bottom: 15px;
+}
+
+li {
+    margin-left: 15px;
+}
+
+img {
+    display: block;
+}
+
+.sperm-whale {
+    margin: 15px auto;
+}
+
+.moby-dick {
+    float: left;
+    height: 200px;
+    margin: 40px 30px 20px 10px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 20px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding: 15px;
+}
+
+nav a {
+    padding-right: 5px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Section */
+section {
+    margin-top: 15px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+/* span */
+span {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+/* header */
+header {
+    text-align: center;
+    color: #ff0000;
+}
+
+h3,h2,h4,h1 {
+    color: #ff0000;
+}
+
+/* main */
+main {
+    width: 55%;
+    margin: auto;
+    background: #f6f6f6;
+    padding: 15px;
+}
+
+main a {
+    color: #ff6200;
+}
+
+main a:hover {
+    color: #ff3700;
+}
