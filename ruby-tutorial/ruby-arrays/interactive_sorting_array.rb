@@ -85,4 +85,3 @@ loop do
   print "Do you want to perform another array operation? (yes/no): "
   break unless gets.chomp.downcase == 'yes'
 end
-
