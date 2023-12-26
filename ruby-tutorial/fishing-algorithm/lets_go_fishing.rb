@@ -3,7 +3,7 @@ def go_fishing
   puts "Cast line into pond."
 
   loop do
-    puts "Watch the bobber until it goes underwater."
+    puts "Watch the bobber. Is it underwater? (yes/no)"
     underwater = gets.chomp.downcase
 
     if underwater == "yes"
