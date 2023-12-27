@@ -17,3 +17,21 @@ ul {
 ul li a {
     color: crimson;
 }
+
+button {
+    background-color: gray;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: "proxima-nova", "Proxima Nova",
+                 sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.1s linear;
+    margin: 15px auto 0;
+}
