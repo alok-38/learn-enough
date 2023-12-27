@@ -1,5 +1,7 @@
 body {
     letter-spacing: 1px;
+    background: #b48484;
+    color: #4e4e4e;
 }
 figure {
     display: block;
@@ -16,12 +18,25 @@ figcaption,h2 {
     margin-bottom: 15px;
 }
 
-h2 {
+h1 {
     margin-top: 50px;
+    color: #262626;
+    text-align: center;
 }
 
 p {
     width: 48%;
     margin: auto;
     line-height: 1.6;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e76200;
+}
+
+a:hover {
+    color: #262626;
+    text-decoration: underline;
 }
