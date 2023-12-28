@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    border: 0;
+}
+
+nav {
+    background: #6c8aa7;
+}
+
+nav a {
+    color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    justify-content: right;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.85em;
+}
