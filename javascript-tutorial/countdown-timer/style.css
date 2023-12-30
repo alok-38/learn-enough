@@ -1,0 +1,28 @@
+body {
+    background-image: url(./indian\ flag.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px 1000px;
+}
+
+h1 {
+    text-align: center;
+    color: floralwhite;
+    font-size: 5em;
+    letter-spacing: 1px;
+}
+
+span {
+    color: rebeccapurple;
+}
+
+@media only screen and (max-width: 600px) {
+    #countdown {
+        font-size: 3em;
+        color: rebeccapurple;
+    }
+
+    body {
+        background-position:top;
+        background-repeat: no-repeat;
+    }
+}
