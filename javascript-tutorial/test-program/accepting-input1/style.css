@@ -1,0 +1,15 @@
+#container {
+    float: right;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+button {
+    display: block;
+    margin-top: 15px;
+}
