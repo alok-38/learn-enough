@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  #color-container {
+    text-align: center;
+  }
+  
+  #color-display {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #0e1319;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+  
