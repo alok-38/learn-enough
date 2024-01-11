@@ -20,9 +20,15 @@ body {
     font-size: 1em;
     padding: 10px 20px;
     cursor: pointer;
-    background-color: #0e1319;
+    background-color: #06080b;
     color: #fff;
     border: none;
     border-radius: 5px;
-}
+    transition: background-color 0.3s; /* Adding transition for smooth color change */
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #2a3743;
+  }
   
