@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .counter-container {
+    display: flex;
+    flex-direction: column; /* Updated to column layout for child elements */
+    align-items: center; /* Center align items */
+  }
+  
+  button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin: 5px; /* Adjusted button margin for spacing */
+    cursor: pointer;
+  }
+  
+  #counter {
+    font-size: 5rem;
+    margin: 0 10px;
+  }
+  
+  .counter-buttons-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .reset-container {
+    margin-top: 10px; /* Added margin for spacing */
+  }
+  
