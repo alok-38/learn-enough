@@ -15,13 +15,15 @@ ul {
 
 form {
     max-width: 400px;
-    margin: 20px auto;
+    margin: 0 auto;
     background: #fff;
     padding: 2.5em;
     border: 1px solid #ccc;
     border-radius: 1em;
     line-height: 1.6;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 10px;
 }
 
 label span {
@@ -32,9 +34,11 @@ label span {
 input,
 textarea {
   font: 1em sans-serif;
-  width: 250px;
+  width: 100%;
+  padding: 8px;
   box-sizing: border-box;
   border: 1px solid #999;
+  transition: border-color 0.3s ease-in-out;
 }
 
 input[type="checkbox"],
@@ -49,9 +53,10 @@ textarea:focus {
 }
 
 fieldset {
-    width: 250px;
+    width: 100%;
     box-sizing: border-box;
     border: 1px solid #999;
+    padding: 1em;
 }
 
 button {
@@ -61,6 +66,8 @@ button {
 label {
     position: relative;
     display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 p label {
@@ -71,4 +78,20 @@ label em {
     position: absolute;
     right: 5px;
     top: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    letter-spacing: 1px;
+    width: 100%;
+}
+  
+  button:hover {
+    background-color: #0056b3;
 }
