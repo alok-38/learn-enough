@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+ul {
+    list-style: none;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 2.5em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    line-height: 1.6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label span {
+    display: inline-block;
+    text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  border: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+fieldset {
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+button {
+    margin: 20px 0 0 0;
+}
+
+label {
+    position: relative;
+    display: inline-block;
+}
+
+p label {
+    width: 100%;
+}
+  
+label em {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
