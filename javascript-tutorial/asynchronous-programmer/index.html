@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delayed Message</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<div id="message-container">
+    <p id="message">Loading...</p>
+    <button id="displayMessageBtn" type="button">Display message</button>
+</div>
+
+<script>
+    // Function to be executed after a delay
+    function displayMessage() {
+        var messageElement = document.getElementById('message');
+        messageElement.textContent = 'Hello, this is a delayed message!';
+        const messageElement1 = document.createElement('p');
+        messageElement1.textContent = `Another message`;
+        document.body.appendChild(messageElement1);
+    }
+
+    // Set a timeout of 2000 milliseconds (2 seconds)
+    setTimeout(displayMessage, 2000);
+</script>
+
+</body>
+</html>
