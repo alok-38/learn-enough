@@ -27,6 +27,46 @@ nav {
     border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
+h1 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+header button {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff4500;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    letter-spacing: 1px;
+}
+
+header button:hover,
+header button:focus {
+    background-color: #ff5e3a;
+}
+
+/* Play button */
+button.arrow {
+    background-color: #ff4500;
+    font-size: 24px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  button.arrow:hover,
+  button.arrow:focus {
+    background-color: #ff5e3a;
+  }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -60,6 +100,54 @@ header {
     padding-bottom: 30px;
 }
 
+h2 {
+    text-align: center;
+}
+
+/* Table */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+tr {
+    text-align: center;
+}
+
+th, td {
+    padding: 12px 20px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  table button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    letter-spacing: 1px;
+  }
+
+  table button:hover {
+    background-color: #45a049;
+  }
+
 /* Button styling */
 button {
     cursor: pointer;
@@ -78,3 +166,5 @@ footer {
 footer a:hover {
     background: none;
 }
+
+/*  */
