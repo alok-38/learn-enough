@@ -60,6 +60,13 @@ button.arrow {
     background-color: #ff4500;
     font-size: 24px;
     transition: background-color 0.3s ease, border-color 0.3s ease;
+    color: #0b0b0b;
+    font-size: 3em;
+    border-radius: 50%;
+    padding: 1.5px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
   }
 
   button.arrow:hover,
