@@ -20,6 +20,13 @@ html, body {
     padding: 0;
 }
 
+/* Nav */
+nav {
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -29,10 +36,23 @@ ul {
 
 ul li {
     margin-top: 5px;
+    padding: 0 5%;
 }
 
 ul a {
     text-decoration: none;
     vertical-align: middle;
-    padding: .5em;
+}
+
+ul a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url('./assets/images/Header\ Background.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
 }
