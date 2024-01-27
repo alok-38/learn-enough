@@ -1,16 +1,15 @@
 section {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(minmax(200px, 1fr));
 }
 section > div {
-    border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
 }
-section > div img {
-    max-width: 100%;
-    height: auto;
-}
 
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: none;
+}
