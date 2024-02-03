@@ -1,0 +1,14 @@
+section {
+    width: 50%;
+    margin: auto;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+p {
+    margin: 25px auto;
+}
