@@ -1,5 +1,3 @@
-// Module for handling mathematical operations
-
 export function add(a, b) {
     return a + b;
   }
