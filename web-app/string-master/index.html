@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StringMaster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>StringMaster</h1>
+    </header>
+    <main>
+        <section id="manipulation">
+            <h2>String Manipulation</h2>
+            <textarea id="inputString" placeholder="Enter your string"></textarea>
+            <div id="manipulationOptions">
+                <button data-operation="concat">Concatenate</button>
+                <button data-operation="split">Split</button>
+                <button data-operation="reverse">Reverse</button>
+                <button data-operation="uppercase">Uppercase</button>
+                <button data-operation="lowercase">Lowercase</button>
+                <button data-operation="trim">Trim</button>
+            </div>
+            <div id="output"></div>
+        </section>
+
+        <section id="search">
+            <h2>String Search</h2>
+            <input type="text" id="searchString" placeholder="Enter search term">
+            <button onclick="searchString()">Search</button>
+            <div id="searchOutput"></div>
+        </section>
+
+        <section id="encodingDecoding">
+            <h2>String Encoding/Decoding</h2>
+            <textarea id="encodeDecodeInput" placeholder="Enter string to encode/decode"></textarea>
+            <div id="encodingOptions">
+                <button onclick="encodeDecodeString('base64encode')">Base64 Encode</button>
+                <button onclick="encodeDecodeString('base64decode')">Base64 Decode</button>
+                <button onclick="encodeDecodeString('urlEncode')">URL Encode</button>
+                <button onclick="encodeDecodeString('urlDecode')">URL Decode</button>
+                <!-- Add more encoding/decoding options -->
+            </div>
+            <div id="encodeDecodeOutput"></div>
+        </section>
+
+        <section id="validation">
+            <h2>String Validation</h2>
+            <input type="text" id="validationInput" placeholder="Enter string to validate">
+            <div id="validationOptions">
+                <button onclick="validateString('email')">Email Validation</button>
+                <button onclick="validateString('password')">Password Strength</button>
+                <!-- Add more validation options -->
+            </div>
+            <div id="validationOutput"></div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
