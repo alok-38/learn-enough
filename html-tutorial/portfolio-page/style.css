@@ -3,12 +3,25 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px sandybrown solid;
+    max-width: 700px;
+    margin: auto;
+    padding: 25px 0;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
 ul {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
+    margin: 0 auto;
 }
 
 h1,
@@ -19,7 +32,7 @@ h2 {
 
 img {
     display: block;
-    width: 300px;
+    width: 500px;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -33,6 +46,15 @@ img {
 main ul {
     display: flex;
     flex-direction: column;
+}
+
+main ul li {
+    margin-bottom: 20px;
+}
+
+main ul li a {
+    display: flex;
+    justify-content: center;
 }
 
 footer ul {
