@@ -13,6 +13,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin-top: 15px;
+}
+
 header h2,
 header p {
     margin-left: 80px;
@@ -43,6 +47,12 @@ ul li {
 main {
     width: 30%;
     margin: 0 auto;
+}
+
+main p {
+    width: 100%;
+    margin-bottom: 15px;
+    font-style: italic;
 }
 
 a {
