@@ -22,12 +22,19 @@ ul {
 a {
     text-decoration: none;
     margin: 0 auto;
+    color: salmon;
+}
+
+a:hover {
+    color: orangered;
 }
 
 h1,
 h2 {
     text-align: center;
     margin-bottom: 15px;
+    color: blueviolet;
+    font-size: 32px;
 }
 
 img {
