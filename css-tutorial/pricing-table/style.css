@@ -4,21 +4,57 @@
     box-sizing: border-box;
 }
 
+/* Pricing container */
 .pricing-container {
     display: flex;
     gap: 25px;
     justify-content: center;
+    margin-top: 100px;
 }
 
+/* Section */
 section {
     border: 1px sandybrown solid;
     line-height: 1.6;
+    border-radius: 15px;
 }
 
 ul {
     list-style-type: none;
+    padding-left: 2em;
 }
 
 .plan-title {
     background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
 }
+
+/* Pricing plan */
+.pricing-plan {
+    flex-basis: 300px;
+    padding: 20px;
+}
+
+.plan-price {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.plan-features {
+    margin-top: 10px;
+}
+
+/* Button */
+.plan-button {
+    display: flex;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1px;
+    border-radius: 15px;
+}
+
