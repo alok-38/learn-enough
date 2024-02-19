@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 20px 0 35px 25px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: bold;
+    color: orange;
+}
+
+img {
+    width: 20%;
+    height: 200px;
+}
+
+article p {
+    width: 20%;
+}
+
+footer {
+    text-align: center;
+}
