@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+section {
+    border: 1px sandybrown solid;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.plan-title {
+    background-color: aquamarine;
+}
