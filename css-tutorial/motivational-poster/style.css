@@ -1,0 +1,25 @@
+h1 {
+    font-family: "Baskervville", serif;
+    color: salmon;
+    background-color: black;
+    text-align: center;
+    font-size: 48px;
+}
+
+.container {
+    width: 43%;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.6;
+    color: orangered;
+    font-size: 24px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border: 5px salmon solid;
+    box-sizing: border-box;
+}

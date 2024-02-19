@@ -1,0 +1,62 @@
+.color-red {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.color-blue {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.color-orange {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+}
+
+.color-green {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.color-yellow {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .color-title {
+    text-align: center;
+}
+
+.container div {
+    margin-top: 50px;
+    margin-right: 20px;
+    /* Add some spacing between the divs */
+    display: inline-block;
+    /* Change display to inline-block */
+    text-align: center;
+    /* Center align text */
+}
