@@ -41,7 +41,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
 }
 
 /* Image styles */
@@ -58,4 +58,9 @@ img {
 
 img:hover {
     transform: scale(1.05);
+}
+
+li {
+    height: 5px;
+    margin-right: -200px;
 }
