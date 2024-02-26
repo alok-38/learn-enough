@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.6;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px; /* Adjust this value to reduce the padding */
+}
