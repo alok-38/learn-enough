@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+input {
+    padding: 10px 35px;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+    padding: 10px 35px;
+    letter-spacing: 1px;
+}
+
+
