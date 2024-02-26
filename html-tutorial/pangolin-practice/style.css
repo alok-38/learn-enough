@@ -8,11 +8,60 @@ body {
     line-height: 1.6;
 }
 
-img {
+p {
+    line-height: 2;
+    margin-bottom: 50px;
     display: block;
-    width: 50%;
 }
 
-p {
+img {
+    display: block;
+}
+
+p,
+img {
     width: 50%;
+    margin: auto;
+}
+
+h1,
+h3 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+img {
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+h2 {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Media query for smartphones */
+@media only screen and (max-width: 600px) {
+    img, p {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    img {
+        object-fit: cover;
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        padding-left: 0;
+        margin-left: 35px;
+        margin-top: 25px;
+    }
 }
