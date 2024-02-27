@@ -21,3 +21,121 @@ input {
     outline: none;
     border: none;
 }
+
+.container {
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 0 5px;
+    color: #f1c40f;
+    text-transform: uppercase;
+}
+
+.calculator {
+    padding: 0.25rem;
+    display: inline-block;
+}
+
+#answer {
+    caret-color: #0f38f1;
+}
+
+input {
+    background-color: rgba(52, 73, 94, 0.5);
+    color: #ecf0f1;
+    font-size: 3rem;
+    width: 80vw;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+table {
+    margin: auto;
+}
+
+button {
+    background-color: white;
+    width: 20vw;
+    height: 10vh;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    margin: 0.25vmax;
+    font-size: 2vmax;
+    border-radius: 1rem;
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -o-transition: all ease 0.5s;
+}
+
+.row {
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    max-width: 20vw;
+    margin: auto;
+    gap: 15px;
+}
+
+.row .col button {
+    background-color: #f01600;
+    font-weight: bold;
+    color: #ecf0f1;
+    width: 9vw;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* Hover */
+button:active {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+button:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -o-transition: all ease 0.5s;
+}
+
+@media (max-width: 700px) {
+    td button {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .row {
+        display: flex;
+        font-size: 1rem;
+        justify-content: center;
+        max-width: 20vw;
+        margin: auto;
+        gap: .1px;
+    }
+
+    .row .col button {
+        background-color: #f01600;
+        font-weight: bold;
+        color: #ecf0f1;
+        width: 10vw;
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+    h1 {
+        letter-spacing: 1.5px;
+        font-size: 3.5em;
+    }
+}
