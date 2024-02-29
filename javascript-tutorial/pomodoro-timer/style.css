@@ -37,3 +37,9 @@ p {
     font-size: 2.5em;
     margin: 0 0 25px 0;
 }
+
+button:hover,
+button:focus {
+    opacity: 0.8;
+    /* Decrease opacity on hover/focus */
+}
