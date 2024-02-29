@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    background-color: rebeccapurple;
+    color: #ffffff;
+    width: 20%;
+    margin: 10% auto;
+    padding: 50px;
+}
+
+button {
+    padding: 10px 25px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-right: 15px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+}
+
+#start {
+    background-color: green;
+}
+
+#stop {
+    background-color: orangered;
+}
+
+#reset {
+    background-color: yellow;
+    color: blueviolet;
+}
+
+p {
+    font-size: 2.5em;
+    margin: 0 0 25px 0;
+}
