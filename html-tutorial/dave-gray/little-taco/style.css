@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 2rem 2rem 0 2rem;
+    line-height: 1.6;
+}
+
+/* Table */
+table img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: tomato;
+}
+
+nav,
+footer {
+    background-color: rgb(255, 170, 0);
+    padding: 2rem;
+}
+
+/* Navbar */
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul a {
+    color: whitesmoke;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    color: whitesmoke;
+    bottom: 0;
+    position: fixed;
+    width: 97%;
+}
+
+/* Img */
+figure img {
+    display: block;
+    margin: 15px auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* main */
+main {
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+
+/* table */
+table {
+    margin: 0 auto 25px auto;
+    text-align: center;
+    width: 100%;
+}
+
+/* caption */
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: orange;
+}
+
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid orange;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(248, 223, 177);
+}
+
+tfoot {
+    font-weight: bold;
+    background-color: rgb(250, 221, 215);
+}
+
+/* article */
+article {
+    margin: 25px auto 25px auto;
+}
+
+/* form */
+form {
+    width: 50%;
+    margin: auto;
+}
+
+fieldset {
+    border: none;
+}
+
+form input {
+    width: 100%;
+    outline: none;
+    padding: 10px 25px;
+}
+
+form input:hover,
+form textarea:hover,
+form textarea:focus,
+form input:focus {
+    border: .5px solid rgb(255, 170, 0);
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px 25px;
+}
+
+form button {
+    padding: 10px 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 170, 0);
+    color: #ffffff;
+    letter-spacing: 1px;
+    display: inline;
+    margin-left: 5%;
+    width: 40%;
+    margin-top: 15px;
+}
+
+/* address */
+address,
+legend {
+    text-align: center;
+}
