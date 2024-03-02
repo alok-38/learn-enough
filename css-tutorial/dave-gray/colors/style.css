@@ -28,6 +28,12 @@ header {
     color: whitesmoke;
     background-color: #ff7300;
     padding: 15px 45px;
+    letter-spacing: 1px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #fc8e33;
 }
 
 nav ul {
@@ -70,7 +76,15 @@ section {
 
 .features {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 80%;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.feature p {
+    width: 100%;
 }
 
 .feature {
