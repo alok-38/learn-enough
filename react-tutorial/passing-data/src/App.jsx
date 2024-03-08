@@ -4,19 +4,27 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 const Hello = (props) => {
+  console.log(props);
   return (
     <div>
-      <p>Hello {props.name}</p>
+      <p>
+        Hello {props.name}, you are {props.age} years old.
+      </p>
     </div>
   )
 }
 
 const App = () => {
+  const name = 'Alok'
+  const age = 39
+  const name1 = 'Mother'
+  const age1 = 67
+
   return (
     <div>
       <h1>Greetings</h1>
-      <Hello name='Alok' />
-      <Hello name='Mother' />
+      <Hello name='Alok' age={29 + 10} />
+      <Hello name={name1} age={age1} />
     </div>
   )
 }
