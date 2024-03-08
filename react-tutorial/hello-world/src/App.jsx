@@ -1,16 +1,18 @@
+import React from "react"
+
 const App = () => {
-const a = 10
-const b = 20
-const now = new Date()
-  return (
-    <div>
-      <p>
-        {a} plus {b} is {a + b}
-      </p>
-      <p>
-        Hello World, it is {now.toString()}
-      </p>
-    </div>
+  const now = new Date()
+  const a = 10
+  const b = 20
+  return React.createElement(
+    'div',
+    null,
+    React.createElement(
+      'p', null, 'Hello world it is ', now.toString()
+    ),
+    React.createElement(
+      'p', null, a, ' plus ', b, ' is ', a + b
+    )
   )
 }
 
