@@ -16,3 +16,11 @@ const linkPara = document.querySelector("p");
 linkPara.appendChild(text);
 
 
+// Manipulating styles
+paraEl.style.color = "white";
+paraEl.style.backgroundColor = "black";
+paraEl.style.padding = "10px";
+paraEl.style.width = "250px";
+paraEl.style.textAlign = "center";
+
+paraEl.setAttribute('class', 'highlight');
