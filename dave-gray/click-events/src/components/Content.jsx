@@ -5,11 +5,16 @@ const Content = () => {
         return names[int];
     }
 
+    const handleClick = () => {
+        console.log(`You clicked it!`);
+    }
+
     return (
         <main>
             <p>
                 Hello {handleNameChange()}!
             </p>
+            <button onClick={handleClick}>Click me!</button>
         </main>
     )
 }
