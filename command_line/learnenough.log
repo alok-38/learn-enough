@@ -1,0 +1,18 @@
+PING learnenough.com (172.67.144.11) 56(84) bytes of data.
+64 bytes from 172.67.144.11: icmp_seq=1 ttl=55 time=143 ms
+64 bytes from 172.67.144.11: icmp_seq=2 ttl=55 time=329 ms
+64 bytes from 172.67.144.11: icmp_seq=3 ttl=55 time=161 ms
+64 bytes from 172.67.144.11: icmp_seq=4 ttl=55 time=242 ms
+64 bytes from 172.67.144.11: icmp_seq=5 ttl=55 time=199 ms
+64 bytes from 172.67.144.11: icmp_seq=6 ttl=55 time=335 ms
+64 bytes from 172.67.144.11: icmp_seq=7 ttl=55 time=282 ms
+64 bytes from 172.67.144.11: icmp_seq=8 ttl=55 time=239 ms
+64 bytes from 172.67.144.11: icmp_seq=9 ttl=55 time=193 ms
+64 bytes from 172.67.144.11: icmp_seq=10 ttl=55 time=323 ms
+64 bytes from 172.67.144.11: icmp_seq=11 ttl=55 time=287 ms
+64 bytes from 172.67.144.11: icmp_seq=12 ttl=55 time=237 ms
+64 bytes from 172.67.144.11: icmp_seq=13 ttl=55 time=195 ms
+
+--- learnenough.com ping statistics ---
+14 packets transmitted, 13 received, 7.14286% packet loss, time 13007ms
+rtt min/avg/max/mdev = 143.396/243.484/335.240/61.450 ms
